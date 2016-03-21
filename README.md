@@ -3,8 +3,8 @@
 
 # PyLua - Python into Lua
 
-[PyLua][PyLua] is a [source-to-source compiler][ss-compiler],
-which compiles [Python][Python] into [Lua][Lua].
+[PyLua][PyLua] is a [source-to-source compiler][ss-compiler]
+that compiles [Python][Python] into [Lua][Lua].
 
 
 ## Reporting Bugs & Requests
