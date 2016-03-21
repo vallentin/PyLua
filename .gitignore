@@ -1,0 +1,8 @@
+
+# Byte-compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore lua libraries
+lua/
