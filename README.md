@@ -1,18 +1,63 @@
 
 **Status:** In development.
 
+*Information is chronologically added to this README.md file. When enough is implemented
+and fleshed out, then the library will be released.*
+
+
 # PyLua - Python into Lua
 
 [PyLua][PyLua] is a [source-to-source compiler][ss-compiler]
 that compiles [Python][Python] into [Lua][Lua].
 
+*[PyLua][PyLua] is developed and tested using Python 3.5.1,
+Lua 5.1 and Lua 5.2.*
 
-## Reporting Bugs & Requests
 
-Feel free to use the [issue tracker](https://github.com/MrVallentin/PyLua/issues),
-for reporting bugs, submitting patches or requesting features.
+## Supported Functionality
 
-Before submitting bugs, make sure that you're using the latest version of [PyLua][PyLua].
+*The following list, is the features that **currently** can be successfully
+translated from [Python][Python] to [Lua][Lua]*
+
+*Features in development has a strike-through.*
+
+- Variables
+ - ~~Global & Local Variables (Differentiation)~~
+- [Types](#types)
+- [Operators](#operators)
+- Functions & Nested Functions
+- ~~Classes~~
+- ~~Importing~~
+
+
+### Types
+
+*Supported [Python][Python] types, that **currently** can be successfully
+translated from [Python][Python] to [Lua][Lua]*
+
+#### Example - Python (left), Lua (right)
+
+*Excluding functions.*
+
+![Supported Python Types](examples/types.png)
+
+
+### Operators
+
+*Supported [Python][Python] operators, that **currently** can be successfully
+translated from [Python][Python] to [Lua][Lua]*
+
+- Arithmetic (`+`, `-`, `*`, `/`, `%`, `**`, `//`)
+- Comparison  (`==`, `!=`, `<>`, `>`, `<`, `>=`, `<=`)
+- Assignment (`=`, `+=`, `-=`, `*=`, `/=`, `%=`, `**=`, `//=`)
+- Bitwise (`~`, `&`, `|`, `^`, `<<`, `>>`)
+- Logical (`not`, `and`, `or`)
+- Membership (`in`, `not in`)
+- Identity (`is`, `is not`)
+
+#### Example - Python (left), Lua (right)
+
+![Supported Python Operators](examples/operators.png)
 
 
 ### License
