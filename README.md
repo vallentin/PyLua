@@ -16,8 +16,8 @@ Lua 5.1 and Lua 5.2.*
 
 ## Supported Functionality
 
-*The following list, is the features that **currently** can be successfully
-translated from [Python][Python] to [Lua][Lua]*
+*The following list, is the features that __currently__ can be successfully
+translated from [Python][Python] to [Lua][Lua].*
 
 *Features in development has a strike-through.*
 
@@ -32,8 +32,8 @@ translated from [Python][Python] to [Lua][Lua]*
 
 ### Types
 
-*Supported [Python][Python] types, that **currently** can be successfully
-translated from [Python][Python] to [Lua][Lua]*
+*Supported [Python][Python] types, that __currently__ can be successfully
+translated from [Python][Python] to [Lua][Lua].*
 
 #### Example - Python (left), Lua (right)
 
@@ -44,7 +44,7 @@ translated from [Python][Python] to [Lua][Lua]*
 
 ### Operators
 
-*Supported [Python][Python] operators, that **currently** can be successfully
+*Supported [Python][Python] operators, that __currently__ can be successfully
 translated from [Python][Python] to [Lua][Lua]*
 
 - Arithmetic (`+`, `-`, `*`, `/`, `%`, `**`, `//`)
