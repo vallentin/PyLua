@@ -25,7 +25,8 @@ translated from [Python][Python] to [Lua][Lua].*
  - ~~Global & Local Variables (Differentiation)~~
 - [Types](#types)
 - [Operators](#operators)
-- Functions & Nested Functions
+- [Functions](#functions)
+ - Nested Functions
 - ~~Classes~~
 - ~~Importing~~
 
@@ -45,7 +46,7 @@ translated from [Python][Python] to [Lua][Lua].*
 ### Operators
 
 *Supported [Python][Python] operators, that __currently__ can be successfully
-translated from [Python][Python] to [Lua][Lua]*
+translated from [Python][Python] to [Lua][Lua].*
 
 - Arithmetic (`+`, `-`, `*`, `/`, `%`, `**`, `//`)
 - Comparison  (`==`, `!=`, `<>`, `>`, `<`, `>=`, `<=`)
@@ -58,6 +59,19 @@ translated from [Python][Python] to [Lua][Lua]*
 #### Example - Python (left), Lua (right)
 
 ![Supported Python Operators](examples/operators.png)
+
+
+### Functions
+
+*Supported [Python][Python] function declarations, that __currently__ can be successfully
+translated from [Python][Python] to [Lua][Lua].*
+
+Note that while [Python][Python] supports multiple `*args` and `**kwargs` in function declarations,
+[Lua][Lua] does not. [Lua][Lua] doesn't as it represents varargs with `...` (which is unnamed).
+
+#### Example - Python (left), Lua (right)
+
+![Supported Python Function Declarations](examples/functions.png)
 
 
 ### License
