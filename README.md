@@ -76,7 +76,7 @@ Note that while [Python][Python] supports multiple `*args` and `**kwargs` in fun
 
 ### License
 
-This module is shared under the MIT license, and is therefore free to use, shared, distribute and modify.
+This module is shared under the MIT license, and is therefore free to use, share, distribute and modify.
 See [LICENSE](https://github.com/MrVallentin/PyLua/blob/master/LICENSE) for more details.
 
 
